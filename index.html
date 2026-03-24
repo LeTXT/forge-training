@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forge Training | Personal Trainer</title>
+  <meta
+    name="description"
+    content="Forge Training: treinos personalizados, planos flexíveis e acompanhamento para evolução real."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;700&family=Manrope:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="topo">
+    <nav class="nav">
+      <a class="brand" href="#topo">Forge Training</a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#planos">Planos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Comece hoje</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <div class="hero-gallery" aria-label="Galeria da academia">
+        <div class="gallery-track">
+          <article class="gallery-slide is-active">
+            <div class="slide-image image-1"></div>
+            <div class="slide-caption">
+              <span>Espaço funcional</span>
+              <strong>Ambiente para treino com intensidade</strong>
+            </div>
+          </article>
+          <article class="gallery-slide">
+            <div class="slide-image image-2"></div>
+            <div class="slide-caption">
+              <span>Musculação</span>
+              <strong>Estrutura pensada para evolução constante</strong>
+            </div>
+          </article>
+          <article class="gallery-slide">
+            <div class="slide-image image-3"></div>
+            <div class="slide-caption">
+              <span>Acompanhamento</span>
+              <strong>Treino orientado para manter foco e consistência</strong>
+            </div>
+          </article>
+        </div>
+
+        <div class="gallery-controls">
+          <button class="gallery-dot is-active" type="button" aria-label="Imagem 1"></button>
+          <button class="gallery-dot" type="button" aria-label="Imagem 2"></button>
+          <button class="gallery-dot" type="button" aria-label="Imagem 3"></button>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="plans section" id="planos">
+      <div class="section-head">
+        <p class="eyebrow">Planos</p>
+        <h2>Escolha como você quer começar.</h2>
+      </div>
+
+      <div class="plans-grid">
+        <article class="plan-item">
+          <p class="plan-label" hidden>Mais escolhido</p>
+          <h3>Start</h3>
+          <div class="price-row">
+            <strong>R$ 97</strong>
+            <span>/ mês</span>
+          </div>
+          <p>Ideal para sair da inércia com um treino organizado e objetivo.</p>
+          <a class="text-link" href="#contato">Quero esse</a>
+        </article>
+
+        <article class="plan-item featured">
+          <p class="plan-label">Mais escolhido</p>
+          <h3>Forge Pro</h3>
+          <div class="price-row">
+            <strong>R$ 197</strong>
+            <span>/ mês</span>
+          </div>
+          <p>Treino personalizado, ajustes frequentes e acompanhamento mais próximo.</p>
+          <a class="text-link" href="#contato">Comece nesse plano</a>
+        </article>
+
+        <article class="plan-item">
+          <p class="plan-label" hidden>Mais escolhido</p>
+          <h3>Elite</h3>
+          <div class="price-row">
+            <strong>R$ 297</strong>
+            <span>/ mês</span>
+          </div>
+          <p>Mais contato, mais ajustes e direção total para metas ambiciosas.</p>
+          <a class="text-link" href="#contato">Falar sobre esse plano</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="services section" id="servicos">
+      <div class="section-head">
+        <p class="eyebrow">Serviços Personalizados</p>
+        <h2>Atendimento pensado para o seu objetivo e a sua rotina.</h2>
+      </div>
+
+      <div class="services-layout">
+        <article class="service-visual service-main">
+          <div class="service-image service-image-1"></div>
+          <div class="service-copy">
+            <h3>Treino personalizado</h3>
+            <p>
+              Estrutura feita para o seu nível atual, seu objetivo principal e o tempo
+              que você realmente tem para treinar.
+            </p>
+          </div>
+        </article>
+
+        <div class="service-side">
+          <article class="service-visual">
+            <div class="service-image service-image-2"></div>
+            <div class="service-copy">
+              <h3>Acompanhamento próximo</h3>
+              <p>Ajustes e suporte para manter constância e execução certa.</p>
+            </div>
+          </article>
+
+          <article class="service-visual">
+            <div class="service-image service-image-3"></div>
+            <div class="service-copy">
+              <h3>Estratégia de evolução</h3>
+              <p>Organização do treino para ganhar resultado sem complicar a rotina.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div class="contact-content">
+        <p class="eyebrow">Comece hoje</p>
+        <h2>Seu próximo resultado começa com uma decisão simples.</h2>
+        <p>
+          Entre em contato e receba um direcionamento inicial para começar com o plano
+          ideal para você.
+        </p>
+        <a class="btn btn-primary" href="https://wa.me/5500000000000" target="_blank" rel="noreferrer">
+          Chamar no WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="brand" href="#topo">Forge Training</a>
+        <p>Treinamento personalizado para evolução real.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#planos">Planos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
